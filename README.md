@@ -25,6 +25,7 @@ python3 --version
 Download the official get-pip installer:
 
 curl -O https://bootstrap.pypa.io/get-pip.py
+
 Run the script with Python 3:
 
 python3 get-pip.py
