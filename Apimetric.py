@@ -12,8 +12,8 @@ logger = logging.getLogger(__name__)
 
 # Initialize Datadog with your API and APP keys set as environment variables
 options = {
-    'api_key': os.environ.get('b75c00a01564c53b0ee533d3fa88d405'),
-    'app_key': os.environ.get('7e59534f558be5594bc5991dbd39ae5f1dd7f194'),
+    'api_key': os.environ.get('u need api key'),
+    'app_key': os.environ.get('u need app key'),
 
 }
 initialize(**options)
