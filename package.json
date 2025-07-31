@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^1.11.0",
+    "hot-shots": "^11.1.0"
+  }
+}
