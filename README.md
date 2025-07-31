@@ -1,43 +1,51 @@
-for run execute Node js
 
-Packages Needed:
 
-axiosL for HTTP requests (similar to Python's requests)
+```markdown
+# Pet Store API Monitor
 
-hot-shots: for StatsD client (Node.js implementation)
+## Node.js Implementation
 
-dotenv: for environment variables
+### Packages Needed:
+- **axios**: HTTP requests (`npm install axios`)
+- **hot-shots**: StatsD client (`npm install hot-shots`)
+- **dotenv**: Environment variables (`npm install dotenv`)
 
-Installation:
-
+### Installation:
+```bash
 npm install axios hot-shots dotenv
+```
 
-Running the Script:   node petscript.js
+### Execution:
+```bash
+node petscript.js
+```
 
-for run execute python 
+---
 
-install python then 
+## Python Implementation
 
-you need check version 
+### Prerequisites:
+1. Verify Python version (3.6+ required):
+```bash
+python3 --version
+```
 
-python3 --version 
-
-Download the official get-pip installer:
-
+2. Install pip if missing:
+```bash
 curl -O https://bootstrap.pypa.io/get-pip.py
-
-Run the script with Python 3:
-
 python3 get-pip.py
-Confirm pip3 is installed:
-
 pip3 --version
-You can now install Python packages like datadog:
+```
 
+3. Install required package:
+```bash
 pip3 install datadog
+```
 
-Then execute python script code
-
+### Execution:
+```bash
 python3 Apimetric.py
+```
 
-
+> **Note**: Both implementations require a running Datadog agent configured to receive StatsD metrics on port 8125.
+`
