@@ -40,7 +40,7 @@ def fetch_pet():
             try:
                 statsd.increment("Pet.request.count", tags=["action:failed"])
             except Exception as se:
-                logger.error(f"Statsd failed: {se}")
+                logger.error(f"Statsd is fail {se}")
 
         #time.sleep()  # Sleep for 5 seconds
 
